@@ -31,20 +31,20 @@ Visual Studio 2022 or Visual Studio Code
    For product management endpoints refer to the swagger API Documentation.
 
 **Architectural Decisions**
-1. Clean Architecture
+1. Clean Architecture:
     The project follows a clean architecture approach with clear separation of concerns:
     Presentation Layer: Controllers and API endpoints.
     Application Layer: Business logic and services.
     Domain Layer: Entities and interfaces.
     Infrastructure Layer: Data access and repositories
   
-2. Repository Pattern
+2. Repository Pattern:
     The repository pattern is used to abstract data access logic, making the code more maintainable and testable.
 
-3. Dependency Injection
+3. Dependency Injection:
     Dependency Injection (DI) is used throughout the application to promote loose coupling and testability.
 
-4. JWT Authentication
+4. JWT Authentication:
     JWT-based authentication is implemented for securing API endpoints.
 
 
